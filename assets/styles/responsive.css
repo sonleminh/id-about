@@ -1,0 +1,1117 @@
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .header-menu ul li {
+    margin: 0 10px;
+  }
+  header button {
+    margin: 0 10px;
+  }
+  .login-btn {
+    margin-left: 10px;
+  }
+  .shop-btn {
+    margin: 0;
+  }
+  .mobile-btn {
+    font-size: 40px;
+    background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .banner-title {
+    top: 18% !important;
+    width: 40% !important;
+  }
+  .about {
+    padding: 50px 6% 70px !important;
+  }
+  .about > div > p:first-child {
+    margin-bottom: 10px;
+  }
+  .about > div > div {
+    width: 30% !important;
+  }
+  .quote {
+    padding: 50px 6% !important;
+  }
+  .quote-text {
+    width: 78% !important;
+  }
+  .quote > img {
+    width: 23%;
+  }
+  .vision,
+  .mission {
+    padding: 30px !important;
+  }
+  .vision > div > p:first-child,
+  .mission > div > p:first-child {
+    margin-bottom: 10px !important;
+  }
+  .vision > img,
+  .mission > img {
+    margin: 20px auto 0;
+    object-fit: contain;
+  }
+  .value {
+    padding: 40px;
+  }
+  .value > p:first-child {
+    margin-bottom: 10px !important;
+  }
+  .value-content {
+    margin-bottom: 30px !important;
+  }
+  .value-list > div {
+    padding: 0 30px 20px;
+  }
+  .value-list > div > div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .value > div > div img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .value-list > div > div > p {
+    margin-top: 0;
+  }
+  .welcome {
+    padding: 40px !important;
+  }
+  .culture {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .founder > div {
+    margin-top: 30px !important;
+  }
+  .founder > div p:first-child {
+    margin-bottom: 7px !important;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .main-heading {
+    padding: 20px 40px !important;
+  }
+  .private {
+    width: 50% !important;
+  }
+  .product-list div {
+    padding: 25px;
+  }
+  .product-list div p:last-child {
+    text-align: justify;
+  }
+  .tech {
+    height: auto;
+  }
+  .social-list > div p {
+    top: -28%;
+    left: 2%;
+  }
+  .why > p {
+    text-align: justify;
+  }
+  .why-list > div {
+    text-align: justify;
+  }
+  .location > div {
+    padding-left: 80px !important;
+  }
+  .better > div {
+    padding: 0 30px 80px !important;
+  }
+  .better-title {
+    margin-bottom: 10px !important;
+  }
+  .better-desc {
+    width: 70% !important;
+    margin-bottom: 30px !important;
+  }
+  .hiring {
+    width: 90% !important;
+    bottom: -15% !important;
+  }
+  .hiring > div > p:first-child {
+    width: 100% !important;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-top > div:first-child {
+    flex-direction: column;
+  }
+  .footer-top > div:nth-child(2),
+  .footer-top > div:nth-child(3) {
+    width: 19%;
+  }
+  .footer-top > div:first-child > img {
+    height: auto;
+  }
+  .footer-top > div:first-child > p:last-child {
+    text-align: justify;
+  }
+  .footer-top > div:last-child {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .footer-top > div:last-child > p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .footer-top > div:last-child > button {
+    margin-top: 20px;
+  }
+  .socials {
+    margin-top: 10px;
+    justify-content: start !important;
+  }
+  .socials li {
+    margin-right: 20px;
+  }
+  .socials > li > i {
+    font-size: 26px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  header {
+    padding: 0 5% !important;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  .search-input {
+    height: 90%;
+    margin: 0 45px 0 0;
+  }
+  .header-menu {
+    display: none !important;
+  }
+  .mobile-btn {
+    display: block !important;
+    font-size: 50px;
+    background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .banner-title {
+    top: 18% !important;
+    width: 56% !important;
+  }
+  .banner button {
+    width: 220px !important;
+    height: auto !important;
+    padding: 10px 50px !important;
+  }
+  .banner button img {
+    width: 15px !important;
+  }
+  .banner button span {
+    padding-left: 10px !important;
+    font-size: 16px;
+  }
+  .about {
+    flex-direction: column-reverse;
+    padding: 0 6% !important;
+  }
+  .about > div {
+    width: 100% !important;
+  }
+  .about > div > p:first-child {
+    margin-bottom: 10px;
+    font-size: 28px !important;
+  }
+  .about-content {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+  .about > div > div {
+    width: 30% !important;
+  }
+  .about-img {
+    width: 60% !important;
+    margin: 0 auto !important;
+  }
+  .quote {
+    padding: 30px 6% !important;
+  }
+  .quote-text {
+    width: 78% !important;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .quote > img {
+    width: 25%;
+  }
+  .vision,
+  .mission {
+    flex-direction: column;
+    padding: 30px !important;
+  }
+  .vision > div,
+  .mission > div {
+    width: 100% !important;
+  }
+  .vision > div > p:first-child,
+  .mission > div > p:first-child {
+    margin-bottom: 10px !important;
+  }
+  .vision > img,
+  .mission > img {
+    width: 30% !important;
+    margin: 20px auto 0;
+  }
+  .value {
+    padding: 40px;
+  }
+  .value > p:first-child {
+    margin-bottom: 10px !important;
+  }
+  .value-content {
+    margin-bottom: 30px !important;
+    line-height: 26px;
+  }
+  .value-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .value-list > div {
+    padding: 0 30px 20px;
+  }
+  .value-list > div > div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .value-list > div > p {
+    line-height: 24px;
+  }
+  .value > div > div img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .value-list > div > div > p {
+    margin-top: 0;
+  }
+  .team > div {
+    flex-direction: column;
+  }
+  .team-main {
+    width: 100% !important;
+  }
+  .welcome {
+    flex-direction: column;
+    padding: 40px !important;
+  }
+  .culture {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .founder {
+    width: 100% !important;
+  }
+  .founder > div {
+    margin-top: 30px !important;
+  }
+  .founder > div p:first-child {
+    margin-bottom: 7px !important;
+  }
+  .groups {
+    flex-direction: column;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .main-heading {
+    padding: 20px 40px !important;
+  }
+  .private {
+    width: 100% !important;
+  }
+  .admin {
+    width: 100% !important;
+  }
+  .problems {
+    padding: 40px 8% !important;
+  }
+  .problem-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .problem-list > div {
+    padding: 20px;
+  }
+  .problem-list > div p:last-child {
+    line-height: 22px;
+  }
+  .product-list div {
+    padding: 25px;
+  }
+  .product-list div p:last-child {
+    line-height: 22px;
+    text-align: justify;
+  }
+  .tech {
+    height: auto;
+  }
+  .server {
+    padding: 40px 3% !important;
+  }
+  .social-list > div p {
+    top: -35%;
+    left: 2%;
+    font-size: 20px;
+  }
+  .why {
+    padding: 40px !important;
+  }
+  .why > p {
+    text-align: justify;
+  }
+  .why-list > div {
+    padding: 20px;
+    text-align: justify;
+  }
+  .location {
+    height: auto !important;
+  }
+  .location > div {
+    padding: 30px !important;
+  }
+  .location > div > p {
+    margin-bottom: 10px !important;
+    font-size: 24px !important;
+  }
+  .location > div > div {
+    font-size: 16px !important;
+  }
+  .better > div {
+    padding: 30px !important;
+  }
+  .better-title {
+    margin-bottom: 10px !important;
+  }
+  .better-desc {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    text-align: justify;
+    line-height: 22px;
+  }
+  .hiring {
+    position: static !important;
+    flex-direction: column;
+    width: 100% !important;
+    margin-top: 20px;
+    transform: translateX(0) !important;
+  }
+  .hiring > img {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .hiring > div {
+    width: 100% !important;
+  }
+  .hiring > div > p:first-child {
+    width: 100% !important;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-top {
+    padding-top: 50px !important;
+  }
+  .footer-top > div:first-child {
+    flex-direction: column;
+  }
+  .footer-top > div:nth-child(2),
+  .footer-top > div:nth-child(3) {
+    width: 19%;
+  }
+  .footer-top > div:first-child > img {
+    height: auto;
+  }
+  .footer-top > div:first-child > p:last-child {
+    text-align: justify;
+  }
+  .footer-top > div:last-child {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .footer-top > div:last-child > p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .footer-top > div:last-child > button {
+    margin-top: 20px;
+  }
+  .socials {
+    margin-top: 10px;
+    justify-content: start !important;
+  }
+  .socials li {
+    margin-right: 10px;
+  }
+  .socials > li > i {
+    font-size: 26px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+  .footer-ellipse1 {
+    top: 0% !important;
+    width: 60% !important;
+    height: 100% !important;
+  }
+  .footer-ellipse2 {
+    top: 0% !important;
+    width: 60% !important;
+    height: 100% !important;
+  }
+}
+@media (min-width: 640px) and (max-width: 767px) {
+  header {
+    height: 69px !important;
+    padding: 0 6% !important;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  .logo {
+    width: 40px !important;
+  }
+  .search-input {
+    height: 90%;
+    margin: 0 15px 0 0;
+  }
+  .header-menu {
+    display: none !important;
+  }
+  .mobile-btn {
+    display: block !important;
+    font-size: 30px;
+    background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .banner-title {
+    top: 20% !important;
+    width: 45% !important;
+    font-size: 26px !important;
+    line-height: 32px !important;
+  }
+  .banner button {
+    width: 140px !important;
+    height: auto !important;
+    padding: 5px 20px !important;
+  }
+  .banner button img {
+    width: 12px !important;
+  }
+  .banner button span {
+    padding-left: 10px !important;
+    font-size: 13px;
+  }
+  .about {
+    flex-direction: column-reverse;
+    padding: 0 6% !important;
+  }
+  .about > div {
+    width: 100% !important;
+  }
+  .about > div > p:first-child {
+    margin-bottom: 10px;
+    font-size: 28px !important;
+  }
+  .about-content {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+  .about > div > div {
+    width: 30% !important;
+  }
+  .about-img {
+    width: 60% !important;
+    margin: 0 auto !important;
+  }
+  .quote {
+    padding: 20px 6% !important;
+  }
+  .quote-text {
+    width: 78% !important;
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .quote > img {
+    width: 25%;
+  }
+  .vision,
+  .mission {
+    flex-direction: column;
+    padding: 30px !important;
+  }
+  .vision > div,
+  .mission > div {
+    width: 100% !important;
+  }
+  .vision > div > p:first-child,
+  .mission > div > p:first-child {
+    margin-bottom: 10px !important;
+  }
+  .vision > img,
+  .mission > img {
+    width: 40% !important;
+    margin: 10px auto 0;
+  }
+  .value {
+    padding: 30px;
+  }
+  .value > p:first-child {
+    margin-bottom: 10px !important;
+    font-size: 22px !important;
+  }
+  .value-content {
+    margin-bottom: 30px !important;
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  .value-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .value-list > div {
+    padding: 0 30px 20px;
+  }
+  .value-list > div > div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .value-list > div > p {
+    line-height: 24px;
+  }
+  .value > div > div img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .value-list > div > div > p {
+    margin-top: 0;
+  }
+  .team > div {
+    flex-direction: column;
+  }
+  .team-main {
+    width: 100% !important;
+  }
+  .welcome {
+    flex-direction: column;
+    padding: 40px !important;
+  }
+  .culture {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .founder {
+    width: 100% !important;
+  }
+  .founder > div {
+    margin-top: 30px !important;
+  }
+  .founder > div p:first-child {
+    margin-bottom: 7px !important;
+  }
+  .groups {
+    flex-direction: column;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .main-heading {
+    padding: 20px 40px !important;
+  }
+  .private {
+    width: 100% !important;
+  }
+  .admin {
+    width: 100% !important;
+  }
+  .problems {
+    padding: 30px 8% !important;
+  }
+  .problem-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 30px !important;
+  }
+  .problem-list > div {
+    padding: 20px;
+  }
+  .problem-list > div p:last-child {
+    line-height: 22px;
+  }
+  .product-list div {
+    padding: 20px;
+  }
+  .product-list div p:last-child {
+    line-height: 22px;
+    text-align: justify;
+  }
+  .tech {
+    height: auto;
+  }
+  .server {
+    padding: 30px 3% !important;
+  }
+  .social-list > div p {
+    top: -35%;
+    left: 2%;
+    font-size: 20px;
+  }
+  .why {
+    padding: 20px !important;
+  }
+  .why > p {
+    text-align: justify;
+  }
+  .why-list > div {
+    padding: 20px;
+    text-align: justify;
+  }
+  .location {
+    height: auto !important;
+  }
+  .location > div {
+    padding: 20px !important;
+  }
+  .location > div > p {
+    margin-bottom: 10px !important;
+    font-size: 24px !important;
+  }
+  .location > div > div {
+    font-size: 16px !important;
+  }
+  .better > div {
+    padding: 30px !important;
+  }
+  .better-title {
+    margin-bottom: 10px !important;
+    font-size: 24px !important;
+  }
+  .better-desc {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    text-align: justify;
+    line-height: 22px;
+  }
+  .hiring {
+    position: static !important;
+    flex-direction: column;
+    width: 100% !important;
+    padding: 20px !important;
+    margin-top: 20px;
+    transform: translateX(0) !important;
+  }
+  .hiring > img {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .hiring > div {
+    width: 100% !important;
+  }
+  .hiring > div > p:first-child {
+    width: 100% !important;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-top {
+    flex-direction: column;
+    padding-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  .footer-top > div {
+    padding: 0;
+    border-right: none !important;
+  }
+  .footer-top > div:first-child,
+  .footer-top > div:nth-child(2),
+  .footer-top > div:nth-child(3) {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .footer-top > div:first-child > img {
+    height: auto;
+  }
+  .footer-top > div:first-child > p:last-child {
+    text-align: justify;
+  }
+  .footer-top > div:last-child {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-top > div:last-child > p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .footer-top > div:last-child > button {
+    margin-top: 20px;
+  }
+  .socials {
+    justify-content: start !important;
+    margin-top: 10px;
+  }
+  .socials li {
+    margin-right: 20px;
+  }
+  .socials > li > i {
+    font-size: 26px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+}
+
+@media (max-width: 639px) {
+  header {
+    height: 69px !important;
+    padding: 0 6% !important;
+  }
+  header > div:first-child {
+    width: 100%;
+  }
+  .logo {
+    width: 40px !important;
+  }
+  .search-input {
+    height: 90%;
+    margin: 0 15px 0 0;
+  }
+  .header-menu {
+    display: none !important;
+  }
+  .mobile-btn {
+    display: block !important;
+    font-size: 30px;
+    background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  #mobile-menu > div > img {
+    width: 70%;
+  }
+  .banner {
+    padding-top: 70px;
+    background: #1a1b2d;
+  }
+  .banner-title {
+    top: 35% !important;
+    width: 55% !important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+  }
+  .banner button {
+    width: 110px !important;
+    height: auto !important;
+    padding: 5px 10px !important;
+  }
+  .banner button img {
+    width: 10px !important;
+  }
+  .banner button span {
+    padding-left: 5px !important;
+    font-size: 13px;
+  }
+  .about {
+    flex-direction: column-reverse;
+    padding: 0 6% !important;
+  }
+  .about > div {
+    width: 100% !important;
+  }
+  .about > div > p:first-child {
+    margin-bottom: 10px;
+    font-size: 28px !important;
+  }
+  .about-content {
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    line-height: 22px;
+  }
+  .about > div > div {
+    width: 50% !important;
+  }
+  .about-img {
+    width: 100% !important;
+  }
+  .quote {
+    padding: 20px 6% !important;
+  }
+  .quote-text {
+    width: 82% !important;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .quote > img {
+    width: 30%;
+  }
+  .vision,
+  .mission {
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .vision > div,
+  .mission > div {
+    width: 100% !important;
+  }
+  .vision > div > p:first-child,
+  .mission > div > p:first-child {
+    margin-bottom: 10px !important;
+    font-size: 22px !important;
+  }
+  .vision > div > p:last-child,
+  .mission > div > p:last-child {
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  .vision > img,
+  .mission > img {
+    width: 40% !important;
+    margin: 10px auto 0;
+  }
+  .value {
+    padding: 20px;
+  }
+  .value > p:first-child {
+    margin-bottom: 10px !important;
+    font-size: 22px !important;
+  }
+  .value-content {
+    margin-bottom: 30px !important;
+    font-size: 16px !important;
+    line-height: 20px;
+  }
+  .value-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+  .value-list > div {
+    padding: 0 20px 20px;
+  }
+  .value-list > div > div {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .value-list > div > p {
+    line-height: 24px;
+  }
+  .value-list > div > div > p {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .team > p {
+    font-size: 20px !important;
+  }
+  .team > div {
+    flex-direction: column;
+  }
+  .team-main {
+    width: 100% !important;
+  }
+  .welcome {
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .culture {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .founder {
+    width: 100% !important;
+  }
+  .founder > div {
+    margin-top: 30px !important;
+  }
+  .founder > div p:first-child {
+    margin-bottom: 7px !important;
+    font-size: 24px !important;
+  }
+  .founder > div p:last-child {
+    font-size: 15px !important;
+  }
+  .groups {
+    flex-direction: column;
+  }
+  .main {
+    width: 100% !important;
+  }
+  .main-heading {
+    flex-direction: column;
+    padding: 20px !important;
+  }
+  .main-heading > p {
+    margin-bottom: 5px;
+  }
+  .main-list {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .main-list > div:nth-child(3) {
+    border-left: none;
+  }
+  .private {
+    width: 100% !important;
+  }
+  .admin {
+    width: 100% !important;
+  }
+  .problems-title {
+    font-size: 20px !important;
+  }
+  .problems-desc {
+    line-height: 20px;
+  }
+  .problem-list {
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 30px !important;
+  }
+  .problem-list > div {
+    padding: 20px;
+  }
+  .problem-list > div p:last-child {
+    line-height: 22px;
+  }
+  .product-list div {
+    padding: 20px;
+  }
+  .product-list div p:last-child {
+    line-height: 22px;
+    text-align: justify;
+  }
+  .tech {
+    height: auto;
+    padding: 60px 40px 40px;
+    font-size: 22px;
+  }
+  .server {
+    padding: 20px 3% !important;
+  }
+  .server > p {
+    font-size: 18px !important;
+  }
+  .social-list > div p {
+    top: -45%;
+    left: 2%;
+    font-size: 16px;
+    line-height: 15px;
+  }
+  .security-img {
+    margin-bottom: 30px !important;
+  }
+  .why {
+    padding: 20px !important;
+  }
+  .why-title {
+    font-size: 24px;
+  }
+  .why > p {
+    text-align: justify;
+    font-size: 16px;
+  }
+  .why-list > div {
+    padding: 20px;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .location {
+    flex-direction: column;
+    height: auto !important;
+  }
+  .location > div {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+  .location > div > p {
+    margin-bottom: 10px !important;
+    font-size: 24px !important;
+  }
+  .location > div > div {
+    font-size: 16px !important;
+  }
+  .location > img {
+    width: 100% !important;
+  }
+  .better > div {
+    padding: 20px !important;
+  }
+  .better-title {
+    margin-bottom: 10px !important;
+    font-size: 24px !important;
+  }
+  .better-desc {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+    text-align: justify;
+    line-height: 22px;
+  }
+  .hiring {
+    position: static !important;
+    flex-direction: column;
+    width: 100% !important;
+    padding: 20px !important;
+    margin-top: 20px;
+    transform: translateX(0) !important;
+  }
+  .hiring > img {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .hiring > div {
+    width: 100% !important;
+  }
+  .hiring > div > p:first-child {
+    width: 100% !important;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .footer-top {
+    flex-direction: column;
+    padding-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  .footer-top > div {
+    padding: 0;
+    border-right: none !important;
+  }
+  .footer-top > div:first-child,
+  .footer-top > div:nth-child(2),
+  .footer-top > div:nth-child(3) {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .footer-top > div:first-child > img {
+    height: auto;
+  }
+  .footer-top > div:first-child > p:last-child {
+    text-align: justify;
+  }
+  .footer-top > div:last-child {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .footer-top > div:last-child > p {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .footer-top > div:last-child > button {
+    margin-top: 20px;
+  }
+  .socials {
+    justify-content: start !important;
+    margin-top: 10px;
+  }
+  .socials li {
+    margin-right: 20px;
+  }
+  .socials > li > i {
+    font-size: 26px;
+  }
+  .footer-bottom {
+    width: 100%;
+  }
+}
