@@ -769,54 +769,41 @@
 }
 
 @media (max-width: 639px) {
-  header {
-    height: 69px !important;
-    padding: 0 6% !important;
+  .container {
+    width: 84% !important;
   }
-  header > div:first-child {
+  header>div>div:first-child {
+    justify-content: space-between;
     width: 100%;
-  }
-  .logo {
-    width: 40px !important;
-  }
-  .search-input {
-    height: 90%;
-    margin: 0 15px 0 0;
   }
   .header-menu {
     display: none !important;
   }
   .mobile-btn {
     display: block !important;
-    font-size: 30px;
+    font-size: 40px;
     background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  #mobile-menu > div > img {
-    width: 70%;
+  .mobile-logo {
+    width: 30%;
   }
   .banner {
-    padding-top: 70px;
-    background: #1a1b2d;
+    height: 600px;
+  }
+  .banner-sub {
+    font-size: 24px;
   }
   .banner-title {
-    top: 35% !important;
-    width: 55% !important;
-    font-size: 18px !important;
-    line-height: 24px !important;
+    font-size: 30px;
   }
-  .banner button {
-    width: 110px !important;
-    height: auto !important;
-    padding: 5px 10px !important;
+  .banner-btn {
+    width: 100%;
   }
-  .banner button img {
-    width: 10px !important;
-  }
-  .banner button span {
-    padding-left: 5px !important;
-    font-size: 13px;
+  .banner-btn a button {
+    padding: 8px 15px;
+    font-size: 16px;
   }
   .about {
     flex-direction: column-reverse;

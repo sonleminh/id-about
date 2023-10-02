@@ -132,10 +132,11 @@ main {
   justify-content: center;
   align-items: center;
   height: 750px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   background: url(/assets/images/banner-bg.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 
 .banner-content {
@@ -198,11 +199,17 @@ main {
   margin-right: 10px;
 }
 
-.watch-btn {
+.about {
+  margin-bottom: 100px;
 }
 
-.about {
-  margin-bottom: 80px;
+.about-img {
+  width: 30%;
+  object-fit: contain;
+}
+
+.about > div {
+  width: 62%;
 }
 
 .about-content {
@@ -234,6 +241,7 @@ main {
     linear-gradient(to right, rgb(238, 169, 255, 0.05), rgb(238, 169, 255, 1))
       border-box;
   border: 4px solid transparent;
+  overflow: hidden;
 }
 
 .pick-sub {
@@ -275,6 +283,10 @@ main {
 
 .pick-img {
   width: 25%;
+}
+
+.target {
+  margin-bottom: 40px;
 }
 
 .vision,
@@ -326,13 +338,13 @@ main {
 
 .value-heading {
   display: inline-block;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: 48px;
   font-weight: 1000;
 }
 
 .value-sub {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .value-list {
@@ -343,8 +355,7 @@ main {
 
 .value-list > div {
   padding: 20px;
-  /* background: rgba(0, 0, 0, 0.3); */
-  background: #d3d3d3;
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   text-align: center;
 }
@@ -365,19 +376,28 @@ main {
 
 .time-line {
   padding-left: 12.5%;
+  margin-bottom: 80px;
 }
 
 .time-line p {
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-size: 48px;
   font-weight: 1000;
+}
+
+.time-line img {
+  width: 100%;
 }
 
 .problems-title {
   color: #ff5f5f;
   font-size: 48px;
   font-weight: 1000;
+}
+
+.problems {
+  margin-bottom: 80px;
 }
 
 .problem-list > div {
@@ -434,6 +454,8 @@ main {
 .location {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .location-content {
@@ -442,12 +464,17 @@ main {
 
 .location-heading {
   display: inline-block;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 1000;
 }
 
+.location-content ul li {
+  margin-bottom: 20px;
+}
+
 iframe {
-  width: 57%;
+  width: 55%;
   aspect-ratio: 16 / 9;
   border-radius: 24px;
 }
@@ -457,6 +484,7 @@ iframe {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  margin-bottom: 80px;
   background: linear-gradient(#0c0612, #0c0612) padding-box,
     linear-gradient(to right, rgb(238, 169, 255, 0.05), rgb(238, 169, 255, 1))
       border-box;
