@@ -772,7 +772,13 @@
   .container {
     width: 84% !important;
   }
-  header>div>div:first-child {
+  header {
+    height: 69px;
+  }
+  .logo {
+    width: 50px;
+  }
+  header > div > div:first-child {
     justify-content: space-between;
     width: 100%;
   }
@@ -781,7 +787,7 @@
   }
   .mobile-btn {
     display: block !important;
-    font-size: 40px;
+    font-size: 30px;
     background: linear-gradient(to right, #6ddcff 0%, #7f60f9 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -789,108 +795,94 @@
   .mobile-logo {
     width: 30%;
   }
+  main {
+    padding-top: 80px;
+  }
   .banner {
-    height: 600px;
+    height: 250px;
+    margin-bottom: 40px;
+  }
+  .banner-content {
+    margin-bottom: 40px;
   }
   .banner-sub {
-    font-size: 24px;
+    font-size: 20px;
   }
   .banner-title {
-    font-size: 30px;
+    font-size: 24px;
   }
   .banner-btn {
     width: 100%;
   }
   .banner-btn a button {
-    padding: 8px 15px;
-    font-size: 16px;
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+  .banner-btn a button img {
+    width: 20px;
+    margin-right: 5px;
   }
   .about {
     flex-direction: column-reverse;
-    padding: 0 6% !important;
   }
   .about > div {
     width: 100% !important;
+    margin-bottom: 40px;
   }
   .about > div > p:first-child {
     margin-bottom: 10px;
-    font-size: 28px !important;
+    font-size: 16px !important;
   }
   .about-content {
     margin-bottom: 20px;
-    font-size: 16px !important;
+    font-size: 12px !important;
     line-height: 22px;
-  }
-  .about > div > div {
-    width: 50% !important;
   }
   .about-img {
-    width: 100% !important;
+    width: 70% !important;
+    margin: 0 auto;
   }
-  .quote {
-    padding: 20px 6% !important;
-  }
-  .quote-text {
-    width: 82% !important;
-    font-size: 15px;
-    line-height: 22px;
-  }
-  .quote > img {
-    width: 30%;
-  }
-  .vision,
-  .mission {
+  .pick {
     flex-direction: column;
-    padding: 20px !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .pick > div {
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+  .pick-sub {
+    font-size: 16px;
+  }
+  .pick > div > div button {
+    width: 80%;
+    padding: 8px 20px;
+    margin: 0 auto 20px;
+    font-size: 16px;
+  }
+  .pick-img {
+    display: none;
+  }
+  .vision {
+    flex-direction: column;
+    padding: 20px;
   }
   .vision > div,
   .mission > div {
-    width: 100% !important;
-  }
-  .vision > div > p:first-child,
-  .mission > div > p:first-child {
-    margin-bottom: 10px !important;
-    font-size: 22px !important;
-  }
-  .vision > div > p:last-child,
-  .mission > div > p:last-child {
-    font-size: 16px !important;
-    line-height: 20px;
-  }
-  .vision > img,
-  .mission > img {
-    width: 40% !important;
-    margin: 10px auto 0;
-  }
-  .value {
-    padding: 20px;
-  }
-  .value > p:first-child {
-    margin-bottom: 10px !important;
-    font-size: 22px !important;
-  }
-  .value-content {
-    margin-bottom: 30px !important;
-    font-size: 16px !important;
-    line-height: 20px;
-  }
-  .value-list {
-    grid-template-columns: repeat(1, 1fr) !important;
-  }
-  .value-list > div {
-    padding: 0 20px 20px;
-  }
-  .value-list > div > div {
     flex-direction: column;
-    margin-bottom: 10px;
   }
-  .value-list > div > p {
-    line-height: 24px;
+  .vision-img,
+  .mission-img {
+    width: 50%;
   }
-  .value-list > div > div > p {
-    margin-top: 0;
+  .vision-title {
     font-size: 20px;
-    line-height: 24px;
+  }
+  .vision-desc {
+    width: 100%;
+    font-size: 15px;
+    line-height: 18px;
   }
   .team > p {
     font-size: 20px !important;
