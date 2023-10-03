@@ -699,10 +699,17 @@
     grid-template-columns: repeat(1, 1fr) !important;
   }
   .time-line {
-    padding-left: 5%;
+    padding: 0 5%;
+    margin-bottom: 40px;
   }
   .time-line p {
     font-size: 24px;
+  }
+  .roadmap {
+    display: none;
+  }
+  .roadmap-mobile {
+    display: block !important;
   }
   .problems-title {
     font-size: 24px;
