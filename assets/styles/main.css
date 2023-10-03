@@ -371,6 +371,7 @@ main {
 }
 
 .value-desc {
+  color: #b3b4b8;
   font-weight: 600;
 }
 
@@ -413,6 +414,7 @@ main {
 }
 
 .problem-list > div p:last-child {
+  color: #b3b4b8;
   font-weight: 600;
 }
 
@@ -654,7 +656,7 @@ input:checked ~ .tab-content {
 @keyframes fadeInLeft {
   0% {
     transform: translate3d(-50%, 0, 0);
-    /* opacity: 0; */
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -664,7 +666,7 @@ input:checked ~ .tab-content {
 
 @keyframes fadeInRight {
   0% {
-    /* opacity: 0; */
+    opacity: 0;
     transform: translate3d(50%, 0, 0);
   }
   100% {
