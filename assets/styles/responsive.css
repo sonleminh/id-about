@@ -659,13 +659,17 @@
   .pick-img {
     display: none;
   }
-  .vision,
-  .mission {
+  .vision {
     flex-direction: column;
     padding: 20px;
   }
-  .vision > div,
-  .mission > div {
+  .mission{
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .vision > div {
+    flex-direction: column-reverse;
+  }.mission>div {
     flex-direction: column;
   }
   .vision-img,
@@ -678,16 +682,19 @@
   .vision-title,
   .mission-title {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 24px;
   }
-  .mission-desc {
-    margin-bottom: 10px;
+  .mission-title {
+    margin-bottom: 20px;
   }
   .vision-desc,
   .mission-desc {
     width: 100%;
     font-size: 15px;
     line-height: 18px;
+  }
+  .mission-desc {
+    margin-top: 20px;
   }
   .value {
     margin-bottom: 40px;
